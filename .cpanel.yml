@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/comunitas/public_html/sistema/
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
